@@ -37,11 +37,10 @@
 "}}}
 
 "NERDTree configuration {{{
-  map <C-n> :NERDTreeToggle<CR>
+  map <C-n> :NERDTreeTabsToggle<CR>
   "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif "Fecha o vim se só existir uma janela
   "autocmd vimenter * NERDTreeToggle
   "autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
-  map <Leader>n <plug>NERDTreeTabsToggle<CR>
 "}}}
 
 "Command-T configuration {{{
