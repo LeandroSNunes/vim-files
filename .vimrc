@@ -28,6 +28,8 @@
   set tabstop=2
   set expandtab
   set nowrap
+  set t_Co=256
+  set laststatus=2     " Always display the statusline in all windows
 "}}}
 
 "Solarize configuration {{{
@@ -52,16 +54,26 @@
 "}}}
 
 "Powerline configuration {{{
-  set t_Co=256
-  set laststatus=2     " Always display the statusline in all windows
-  set noshowmode       " Hide the default mode text (e.g. -- INSERT -- below the statusline)
-  set rtp+=/Users/leandronunes/.vim/bundle/powerline/powerline/bindings/vim
-  if ! has('gui_running')
-    set ttimeoutlen=10
-    augroup FastEscape
-    autocmd!
-    au InsertEnter * set timeoutlen=0
-    au InsertLeave * set timeoutlen=1000
-    augroup END
-  endif
+  "set noshowmode       " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+  "set rtp+=/Users/leandronunes/.vim/bundle/powerline/powerline/bindings/vim
+  "if ! has('gui_running')
+    "set ttimeoutlen=10
+    "augroup FastEscape
+    "autocmd!
+    "au InsertEnter * set timeoutlen=0
+    "au InsertLeave * set timeoutlen=1000
+    "augroup END
+  "endif
+"}}}
+
+"Vim-javascript configuration {{{
+  let g:html_indent_inctags = "html,body,head,tbody"
+  let g:html_indent_script1 = "inc"
+  let g:html_indent_style1 = "inc"
+"}}}
+
+"Airline configuration {{{
+  let g:airline_powerline_fonts=1
+  let g:airline_theme='dark'
+  let g:airline_enable_fugitive=1
 "}}}
