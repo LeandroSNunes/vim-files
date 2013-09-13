@@ -17,3 +17,4 @@
 - [HTML5](https://github.com/othree/html5.vim)
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
 - [Airline](https://github.com/bling/vim-airline)
+- [TComment_vim](https://github.com/tomtom/tcomment_vim)
