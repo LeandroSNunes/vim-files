@@ -18,3 +18,4 @@
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
 - [Airline](https://github.com/bling/vim-airline)
 - [TComment_vim](https://github.com/tomtom/tcomment_vim)
+- [TagList](https://github.com/vim-scripts/taglist.vim)
