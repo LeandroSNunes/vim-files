@@ -29,7 +29,8 @@
   set expandtab
   set nowrap
   set t_Co=256
-  set laststatus=2     " Always display the statusline in all windows
+  set showmatch
+  set foldmethod=manual
 "}}}
 
 "Solarize configuration {{{
@@ -76,4 +77,28 @@
   let g:airline_powerline_fonts=1
   let g:airline_theme='dark'
   let g:airline_enable_fugitive=1
+  set laststatus=2     " Always display the statusline in all windows
 "}}}
+
+"html5.vim configuration {{{
+  let g:event_handler_attributes_complete = 1
+  let g:rdfa_attributes_complete = 0
+  let g:microdata_attributes_complete = 0
+  let g:aria_attributes_complete = 0
+"}}}
+
+"TagList plugin configuration {{{
+  let Tlist_Use_Right_Window=1
+  let Tlist_Auto_Open=0
+  let Tlist_Enable_Fold_Column=0
+  let Tlist_Compact_Format=0
+  let Tlist_WinWidth=35
+  let Tlist_Exit_OnlyWindow=1
+  let Tlist_File_Fold_Auto_Close = 1
+  nmap <LocalLeader>tt :Tlist<cr>
+"}}}
+
+"Permite identar JSON {{{
+  au FileType json setlocal equalprg=python\ -m\ json.tool
+"}}}
+
