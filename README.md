@@ -22,3 +22,7 @@
 - [Vim Snipmate](https://github.com/garbas/vim-snipmate)
 - [Vim-Snippets](https://github.com/honza/vim-snippets)
 - [Vim-Surround](https://github.com/tpope/vim-surround)
+
+## Install
+$ cd ~/.vim  
+$ git submodule update
