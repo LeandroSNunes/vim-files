@@ -48,6 +48,7 @@
 
 "Command-T configuration {{{
   set wildignore+=*.o,*.obj,system*,*.jpg,*.png,*.gif,*.log,tmp,yard_templates,coverage
+  let g:CommandTCancelMap=['<ESC>','<C-c>']
 "}}}
 
 "Markdown plugin configuration {{{
@@ -78,6 +79,10 @@
   let g:airline_theme='dark'
   let g:airline_enable_fugitive=1
   set laststatus=2     " Always display the statusline in all windows
+  function! AirlineInit()
+    let g:airline_section_x = '%{strftime("%c")}' 
+  endfunction
+  autocmd VimEnter * call AirlineInit()
 "}}}
 
 "html5.vim configuration {{{
