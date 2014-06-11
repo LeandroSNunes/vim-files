@@ -31,6 +31,11 @@
   set t_Co=256
   set showmatch
   set foldmethod=manual
+
+  "exibe o caminho relativo para o arquivo
+  nmap ,cs :let @*=expand("%")<CR> 
+  "exibe o caminho absoluto para o arquivo
+  nmap ,cl :let @*=expand("%:p")<CR>
 "}}}
 
 "Solarize configuration {{{
@@ -76,7 +81,8 @@
 
 "Airline configuration {{{
   let g:airline_powerline_fonts=1
-  let g:airline_theme='dark'
+  let g:airline_theme='badwolf'
+  "let g:airline_theme='dark'
   let g:airline_enable_fugitive=1
   set laststatus=2     " Always display the statusline in all windows
   function! AirlineInit()
