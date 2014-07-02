@@ -53,7 +53,15 @@
 
 "Command-T configuration {{{
   set wildignore+=*.o,*.obj,system*,*.jpg,*.png,*.gif,*.log,tmp,yard_templates,coverage
-  let g:CommandTCancelMap=['<ESC>','<C-c>']
+  if &term =~ "xterm" || &term =~ "screen"
+    let g:CommandTCancelMap = ['<ESC>', '<C-c>']
+    let g:CommandTMaxHeight=30
+    let g:CommandTMaxFiles=10000
+    let g:CommandTMaxDepth=10
+    let g:CommandTNeverShowDotFiles=1
+    let g:CommandTSelectNextMap = ['<C-n>', '<C-j>', '<ESC>OB']
+    let g:CommandTSelectPrevMap = ['<C-p>', '<C-k>', '<ESC>OA']
+  endif
 "}}}
 
 "Markdown plugin configuration {{{
