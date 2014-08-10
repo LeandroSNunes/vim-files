@@ -3,6 +3,8 @@
 ### Plugins Instalados
 
 - [Pathogen](https://github.com/tpope/vim-pathogen)
+  Gerencia o 'runtimePath' para instalar plugins e arquivos de tempo de execução.
+
 - [NERDTree](https://github.com/scrooloose/nerdtree)
 - [iNERDCommenter](https://github.com/scrooloose/nerdcommenter)
 - [NERDTreeTabs](https://github.com/jistr/vim-nerdtree-tabs)
