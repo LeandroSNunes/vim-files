@@ -48,7 +48,9 @@
 "CtrlP configuration ######
   set runtimepath^=~/.vim/bundle/ctrlp.vim
   set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.o,*.obj,system*,*.jpg,*.png,*.gif,*.log
+  let g:ctrlp_working_path_mode = 'ra'
   let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:20,results:20'
+
   if executable('ag')
     " Use Ag over Grep
     set grepprg=ag\ --nogroup\ --nocolor
