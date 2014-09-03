@@ -32,6 +32,7 @@
   set t_Co=256
   set showmatch
   set foldmethod=manual
+  set clipboard+=unnamed
 "#############################
 
 "Shortcuts ##################
@@ -50,6 +51,7 @@
   set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.o,*.obj,system*,*.jpg,*.png,*.gif,*.log
   let g:ctrlp_working_path_mode = 'ra'
   let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:20,results:20'
+  let g:ctrlp_by_filename = 0
 
   if executable('ag')
     " Use Ag over Grep
