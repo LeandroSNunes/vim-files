@@ -23,6 +23,8 @@
 - [Puppet](https://github.com/rodjek/vim-puppet)
 - [Vim Snipmate](https://github.com/garbas/vim-snipmate)
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
+- [Vim-javascript](https://github.com/pangloss/vim-javascript)
+- [vim-airline-tomato](https://github.com/Zuckonit/vim-airline-tomato)
 
 
 ## Install
