@@ -13,6 +13,7 @@
 - [ACK](https://github.com/mileszs/ack.vim)
 - [Cucumber](https://github.com/tpope/vim-cucumber)
 - [Airline](https://github.com/bling/vim-airline)
+- [Vim-fugitive](https://github.com/bling/vim-airline)
 - [Markdown](https://github.com/plasticboy/vim-markdown/)
 - [Vim EndWise - completa strutura do ruby (if, def, …)](https://github.com/tpope/vim-endwise)
 - [Emmet-vim](https://github.com/mattn/emmet-vim)

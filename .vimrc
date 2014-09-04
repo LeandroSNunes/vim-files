@@ -73,12 +73,11 @@
 "############################
 
 "Airline configuration ######
-  let g:airline_powerline_fonts=1
   let g:airline_theme='badwolf'
-  let g:airline_theme='dark'
   let g:airline_enable_fugitive=1
+  let g:airline_powerline_fonts=1
   set laststatus=2     " Always display the statusline in all windows
-  let g:airline#extensions#tabline#enabled = 1
+  "let g:airline#extensions#tabline#enabled = 1
   function! AirlineInit()
     let g:airline_section_x = '%{strftime("%c")}' 
   endfunction
