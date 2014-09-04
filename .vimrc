@@ -93,6 +93,11 @@
   au FileType json setlocal equalprg=python\ -m\ json.tool
 "#############################
 
+"Pomodoro ########
+  let g:tomato#show_clock = 1
+  let g:tomato#show_count_down = 1
+  nmap ,p :call tomato#reset()<CR>
+"#############################
 
 
 
