@@ -64,3 +64,6 @@
 [submodule "bundle/vim-airline-tomato"]
 	path = bundle/vim-airline-tomato
 	url = https://github.com/Zuckonit/vim-airline-tomato.git
+[submodule "bundle/vim-copy-as-rtf"]
+	path = bundle/vim-copy-as-rtf
+	url = https://github.com/zerowidth/vim-copy-as-rtf.git

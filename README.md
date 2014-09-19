@@ -25,6 +25,7 @@
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
 - [vim-airline-tomato](https://github.com/Zuckonit/vim-airline-tomato)
+- [vim-copy-as-rtf](https://github.com/zerowidth/vim-copy-as-rtf)
 
 
 ## Install
