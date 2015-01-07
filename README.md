@@ -24,7 +24,6 @@
 - [Vim Snipmate](https://github.com/garbas/vim-snipmate)
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
-- [vim-airline-tomato](https://github.com/Zuckonit/vim-airline-tomato)
 - [vim-copy-as-rtf](https://github.com/zerowidth/vim-copy-as-rtf)
 
 
@@ -32,3 +31,4 @@
 $ cd ~/.vim  
 $ git submodule init  
 $ git submodule update
+
