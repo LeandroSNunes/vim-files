@@ -25,6 +25,7 @@
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
 - [Vim-javascript](https://github.com/pangloss/vim-javascript)
 - [vim-copy-as-rtf](https://github.com/zerowidth/vim-copy-as-rtf)
+- [jshint2](https://github.com/Shutnik/jshint2.vim)
 
 
 ## Install

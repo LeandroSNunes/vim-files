@@ -64,3 +64,6 @@
 [submodule "bundle/vim-copy-as-rtf"]
 	path = bundle/vim-copy-as-rtf
 	url = https://github.com/zerowidth/vim-copy-as-rtf.git
+[submodule "bundle/jshint2.vim"]
+	path = bundle/jshint2.vim
+	url = git@github.com:Shutnik/jshint2.vim.git
