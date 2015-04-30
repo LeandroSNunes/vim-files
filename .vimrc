@@ -98,6 +98,10 @@ set runtimepath+=~/.vim/bundle/jshint2.vim/
 let jshint2_save = 1
 "#############################
 
+"RuboCop ########
+let g:vimrubocop_keymap = 0
+nmap <Leader>r :RuboCop<CR>
+"#############################
 
 
 
