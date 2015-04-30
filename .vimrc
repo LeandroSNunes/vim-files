@@ -40,6 +40,12 @@
   nmap ,cl :let @*=expand("%:p")<CR>    "exibe o caminho absoluto para o arquivo
 "############################
 
+"Utils ##################
+  autocmd BufWritePre * :%s/\s\+$//e    "remove espaço no final da linha
+"############################
+
+
+
 "NERDTree configuration #####
   map <C-n> :NERDTreeTabsToggle<CR>
   autocmd StdinReadPre * let s:std_in=1
@@ -102,14 +108,3 @@ let jshint2_save = 1
 let g:vimrubocop_keymap = 0
 nmap <Leader>r :RuboCop<CR>
 "#############################
-
-
-
-
-
-
-
-
-
-
-
