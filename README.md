@@ -27,10 +27,14 @@
 - [vim-copy-as-rtf](https://github.com/zerowidth/vim-copy-as-rtf)
 - [jshint2](https://github.com/Shutnik/jshint2.vim)
 - [vim-rubocop](http://vimawesome.com/plugin/vim-rubocop)
+- [dockerfile](http://vimawesome.com/plugin/dockerfile-vim)
 
 
 ## Install
-$ cd ~/.vim  
-$ git submodule init  
+$ cd ~/.vim
+$ git submodule init
+$ git submodule add <path repository> bundle/<name>
+
+## Update
 $ git submodule update
 
