@@ -50,7 +50,7 @@
   autocmd BufWritePre * :%s/\s\+$//e    "remove espaço no final da linha
 "############################
 
-
+let g:ackprg = 'ag --nogroup --nocolor --column'
 
 "NERDTree configuration #####
   map <C-n> :NERDTreeTabsToggle<CR>
