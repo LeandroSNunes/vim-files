@@ -14,6 +14,7 @@
   set ttyfast
   set number	                      "Show line numbers
   set nowrap                        "Wrap lines
+  set colorcolumn=120
   set showmatch	                    "Highlight matching brace
   set visualbell	                  "Use visual bell (no beeping)
   set hlsearch	                    "Highlight all search results
