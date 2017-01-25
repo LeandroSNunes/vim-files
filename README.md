@@ -29,6 +29,7 @@
 - [Markdown](https://github.com/plasticboy/vim-markdown/)
 - [Nginx](https://github.com/vim-scripts/nginx.vim)
 - [Dockerfile](http://vimawesome.com/plugin/dockerfile-vim)
+- [IndentLine](https://github.com/Yggdroot/indentLine)
 
 
 ## Install
