@@ -9,6 +9,9 @@
   set encoding=utf-8
   set fileencoding=utf-8
   set fileencodings=utf-8
+  set bomb
+  set binary
+  set ttyfast
   set number	                      "Show line numbers
   set nowrap                        "Wrap lines
   set showmatch	                    "Highlight matching brace
@@ -29,6 +32,7 @@
   set history=1000                  "Store lots of :cmdline history
   set hidden
   set mouse=nvr
+  set mousemodel=popup
   set showcmd                       "Show incomplete cmds down the bottom
   set showmode                      "Show current mode down the bottom
   set gcr=a:blinkon0                "Disable cursor blink
