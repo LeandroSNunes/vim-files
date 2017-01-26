@@ -140,3 +140,5 @@
 let g:vimrubocop_keymap = 0
 nmap <Leader>r :RuboCop<CR>
 "#############################
+
+let g:indentLine_color_term = 235
