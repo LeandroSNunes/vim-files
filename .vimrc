@@ -14,7 +14,7 @@
   set ttyfast
   set number	                      "Show line numbers
   set nowrap                        "Wrap lines
-  set colorcolumn=120
+  let &colorcolumn="120,".join(range(120,999),",")
   set showmatch	                    "Highlight matching brace
   set visualbell	                  "Use visual bell (no beeping)
   set hlsearch	                    "Highlight all search results
@@ -140,3 +140,5 @@
 let g:vimrubocop_keymap = 0
 nmap <Leader>r :RuboCop<CR>
 "#############################
+
+let g:indentLine_color_term = 235
