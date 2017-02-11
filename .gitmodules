@@ -88,3 +88,6 @@
 [submodule "bundle/indent-line"]
 	path = bundle/indent-line
 	url = https://github.com/Yggdroot/indentLine.git
+[submodule "bundle/buffergator"]
+	path = bundle/buffergator
+	url = https://github.com/jeetsukumaran/vim-buffergator.git
