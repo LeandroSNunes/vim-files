@@ -24,13 +24,13 @@
 - [Closetag](https://github.com/alvan/vim-closetag)
 - [Javascript](https://github.com/pangloss/vim-javascript)
 - [jshint2](https://github.com/Shutnik/jshint2.vim)
-- [Emmet](https://github.com/mattn/emmet-vim)
 - [Cucumber](https://github.com/tpope/vim-cucumber)
 - [Markdown](https://github.com/plasticboy/vim-markdown/)
 - [Nginx](https://github.com/vim-scripts/nginx.vim)
 - [Dockerfile](http://vimawesome.com/plugin/dockerfile-vim)
 - [IndentLine](https://github.com/Yggdroot/indentLine)
 - [buffergator](https://github.com/jeetsukumaran/vim-buffergator)
+- [SnipMate](https://github.com/garbas/vim-snipmate)
 
 ## Install
 $ cd ~/.vim

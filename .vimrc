@@ -134,9 +134,8 @@
   let jshint2_save = 1
 "#############################
 
-"Emmet configuration #########
-  let g:user_emmet_install_global = 0
-  autocmd FileType html,css EmmetInstall
+"Snippets configuration #########
+
 "#############################
 
 "RuboCop ########
