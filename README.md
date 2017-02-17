@@ -12,7 +12,6 @@
 - [Airline](https://github.com/bling/vim-airline)
 - [Airline Themes](https://github.com/vim-airline/vim-airline-themes)
 - [Vim-fugitive](https://github.com/tpope/vim-fugitive)
-- [Syntastic](https://github.com/vim-syntastic/syntastic)
 - [TComment_vim](https://github.com/tomtom/tcomment_vim)
 - [Tabular](https://github.com/godlygeek/tabular)
 - [Copy as RTF](https://github.com/zerowidth/vim-copy-as-rtf)

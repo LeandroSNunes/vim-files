@@ -113,19 +113,6 @@
   autocmd VimEnter * call AirlineInit()
 "############################
 
-"Syntastic configuration #####
-  set statusline+=%#warningmsg#
-  set statusline+=%{SyntasticStatuslineFlag()}
-  set statusline+=%*
-  let g:loaded_syntastic_ruby_mri_checker = 1
-  let g:syntastic_always_populate_loc_list = 1
-  let g:syntastic_auto_loc_list = 1
-  let g:syntastic_check_on_open = 1
-  let g:syntastic_check_on_wq = 0
-  let g:syntastic_html_tidy_ignore_errors = [" proprietary attribute \"ng-"]
-  let g:syntastic_eruby_ruby_quiet_messages = {"regex": "possibly useless use of a variable in void context"}
-"############################
-
 "Javascript configuration #####
   let g:javascript_plugin_jsdoc = 1
 "############################
