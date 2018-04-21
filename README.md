@@ -22,6 +22,7 @@
 - [Endwise](https://github.com/tpope/vim-endwise)
 - [Closetag](https://github.com/alvan/vim-closetag)
 - [Javascript](https://github.com/pangloss/vim-javascript)
+- [Vim JSX](https://github.com/mxw/vim-jsx)
 - [jshint2](https://github.com/Shutnik/jshint2.vim)
 - [Cucumber](https://github.com/tpope/vim-cucumber)
 - [Markdown](https://github.com/plasticboy/vim-markdown/)
