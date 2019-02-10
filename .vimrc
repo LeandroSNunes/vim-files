@@ -4,6 +4,13 @@
   filetype plugin indent on
 "#############################
 
+call plug#begin('~/.vim/plugged')
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
+call plug#end()
+
 "Basic configuration #########
   set nocompatible
   set encoding=utf-8
@@ -76,23 +83,16 @@
   autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "###########################
 
-"CtrlP configuration ######
-  set runtimepath^=~/.vim/bundle/ctrlp.vim
-  set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.o,*.obj,system*,*.jpg,*.png,*.gif,*.log
-  let g:ctrlp_working_path_mode = 'ra'
-  let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:20,results:20'
-  let g:ctrlp_by_filename = 0
-
-  if executable('ag')
-    " Use Ag over Grep
-    set grepprg=ag\ --nogroup\ --nocolor
-
-    " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-
-    " ag is fast enough that CtrlP doesn't need to cache
-    let g:ctrlp_use_caching = 0
-  endif
+" FZF configuration ######
+  nmap <Leader>q :Files<CR>
+  nmap <Leader>Q :GFiles<CR>
+  nmap <Leader>b :Buffers<CR>
+  nmap <Leader>h :History<CR>
+  nmap <Leader>t :BTags<CR>
+  nmap <Leader>T :Tags<CR>
+  nmap <Leader>l :BLines<CR>
+  nmap <Leader>L :Lines<CR>
+  nmap <Leader>a :Ag<Space>
 "##########################
 
 "Solarize configuration #####

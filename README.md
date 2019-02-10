@@ -3,7 +3,9 @@
 ### Plugins Instalados
 
 - [Pathogen](https://github.com/tpope/vim-pathogen)
-- [Incsearch](https://github.com/haya14busa/incsearch.vim)
+- [Vim Plug](https://github.com/junegunn/vim-plug)
+- [FZF](https://github.com/junegunn/fzf.vim)
+- [Incsearch](https://github.com/haya14busa/incsearch.)
 - [Ag](https://github.com/rking/ag.vim)
 - [NERDTree](https://github.com/scrooloose/nerdtree)
 - [NERDTreeTabs](https://github.com/jistr/vim-nerdtree-tabs)
