@@ -76,9 +76,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = https://github.com/vim-scripts/nginx.vim.git
-[submodule "bundle/dockerfile"]
-	path = bundle/dockerfile
-	url = https://github.com/ekalinin/Dockerfile.vim.git
 [submodule "bundle/indent-line"]
 	path = bundle/indent-line
 	url = https://github.com/Yggdroot/indentLine.git

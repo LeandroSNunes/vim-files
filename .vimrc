@@ -8,6 +8,10 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'wakatime/vim-wakatime'
+Plug 'hdima/python-syntax'
+Plug 'irrationalistic/vim-tasks'
+Plug 'ekalinin/dockerfile.vim'
 
 call plug#end()
 
@@ -119,16 +123,29 @@ call plug#end()
 "############################
 
 "JShint ########
-  let jshint2_save = 1
+  " let jshint2_save = 1
 "#############################
 
-"Snippets configuration #########
-
+"Python configuration #########
+  let g:python_highlight_all = 1
 "#############################
 
 "RuboCop ########
 let g:vimrubocop_keymap = 0
 nmap <Leader>r :RuboCop<CR>
+"#############################
+
+"Markdown ########
+let g:vim_markdown_folding_disabled = 1
+"#############################
+
+"Tasks ########
+let g:TasksMarkerBase = '[]'
+let g:TasksMarkerDone = '√'
+let g:TasksMarkerCancelled = '✘'
+let g:TasksDateFormat = '%Y-%m-%d %H:%M'
+let g:TasksAttributeMarker = '@'
+let g:TasksArchiveSeparator = '＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿'
 "#############################
 
 let g:indentLine_color_term = 235
