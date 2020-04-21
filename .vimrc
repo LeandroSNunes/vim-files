@@ -10,9 +10,13 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'lifepillar/vim-solarized8'
+Plug 'haya14busa/incsearch.vim'
 
-
-
+Plug 'ngmy/vim-rubocop'
+Plug 'zerowidth/vim-copy-as-rtf'
 Plug 'wakatime/vim-wakatime'
 Plug 'hdima/python-syntax'
 Plug 'irrationalistic/vim-tasks'
@@ -108,7 +112,7 @@ call plug#end()
   set background=dark
   let g:solarized_termtrans = 1
   let g:solarized_termcolors=256
-  colorscheme solarized
+  colorscheme solarized8
 "############################
 
 "Airline configuration ######
@@ -122,15 +126,6 @@ call plug#end()
   autocmd VimEnter * call AirlineInit()
 "############################
 
-"Javascript configuration #####
-  let g:javascript_plugin_jsdoc = 1
-  let g:jsx_ext_required = 1
-"############################
-
-"JShint ########
-  " let jshint2_save = 1
-"#############################
-
 "Python configuration #########
   let g:python_highlight_all = 1
 "#############################
@@ -138,10 +133,6 @@ call plug#end()
 "RuboCop ########
 let g:vimrubocop_keymap = 0
 nmap <Leader>r :RuboCop<CR>
-"#############################
-
-"Markdown ########
-let g:vim_markdown_folding_disabled = 1
 "#############################
 
 "Tasks ########

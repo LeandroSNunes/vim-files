@@ -2,7 +2,6 @@
 
 ### Plugins Instalados
 
-- [Pathogen](https://github.com/tpope/vim-pathogen)
 - [Vim Plug](https://github.com/junegunn/vim-plug)
 - [FZF](https://github.com/junegunn/fzf.vim)
 - [Incsearch](https://github.com/haya14busa/incsearch.)
