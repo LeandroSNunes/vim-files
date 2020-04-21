@@ -8,6 +8,11 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+
+
+
 Plug 'wakatime/vim-wakatime'
 Plug 'hdima/python-syntax'
 Plug 'irrationalistic/vim-tasks'
@@ -141,8 +146,8 @@ let g:vim_markdown_folding_disabled = 1
 
 "Tasks ########
 let g:TasksMarkerBase = '[]'
-let g:TasksMarkerDone = '√'
-let g:TasksMarkerCancelled = '✘'
+let g:TasksMarkerDone = '[√]'
+let g:TasksMarkerCancelled = '[✘]'
 let g:TasksDateFormat = '%Y-%m-%d %H:%M'
 let g:TasksAttributeMarker = '@'
 let g:TasksArchiveSeparator = '＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿'
