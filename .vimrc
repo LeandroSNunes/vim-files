@@ -15,6 +15,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'lifepillar/vim-solarized8'
 Plug 'haya14busa/incsearch.vim'
 
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'ngmy/vim-rubocop'
 Plug 'zerowidth/vim-copy-as-rtf'
 Plug 'wakatime/vim-wakatime'
