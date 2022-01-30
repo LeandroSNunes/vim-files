@@ -1,6 +1,5 @@
 "Pathogen configuration ######
   execute pathogen#infect()
-  syntax on
   filetype plugin indent on
 "#############################
 
@@ -12,9 +11,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-airline/vim-airline'
-Plug 'lifepillar/vim-solarized8'
+Plug 'altercation/vim-colors-solarized'
 Plug 'haya14busa/incsearch.vim'
-
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'ngmy/vim-rubocop'
 Plug 'zerowidth/vim-copy-as-rtf'
@@ -22,8 +20,12 @@ Plug 'wakatime/vim-wakatime'
 Plug 'hdima/python-syntax'
 Plug 'irrationalistic/vim-tasks'
 Plug 'ekalinin/dockerfile.vim'
+Plug 'rking/ag.vim'
+Plug 'haya14busa/incsearch.vim'
 
 call plug#end()
+
+syntax enable
 
 "Basic configuration #########
   set nocompatible
@@ -111,9 +113,9 @@ call plug#end()
 
 "Solarize configuration #####
   set background=dark
+  let g:solarized_termcolors = 256
   let g:solarized_termtrans = 1
-  let g:solarized_termcolors=256
-  colorscheme solarized8
+  colorscheme solarized
 "############################
 
 "Airline configuration ######
