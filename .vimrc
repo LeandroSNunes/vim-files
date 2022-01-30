@@ -22,6 +22,18 @@ Plug 'irrationalistic/vim-tasks'
 Plug 'ekalinin/dockerfile.vim'
 Plug 'rking/ag.vim'
 Plug 'haya14busa/incsearch.vim'
+Plug 'ddollar/nerdcommenter'
+Plug 'tomtom/tcomment_vim'
+Plug 'zerowidth/vim-copy-as-rtf'
+Plug 'terryma/vim-expand-region'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rake'
+Plug 'tpope/vim-endwise'
+Plug 'alvan/vim-closetag'
+Plug 'ngmy/vim-rubocop'
+Plug 'yggdroot/indentline'
+Plug 'jeetsukumaran/vim-buffergator'
+Plug 'fatih/vim-go'
 
 call plug#end()
 
