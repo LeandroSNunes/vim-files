@@ -33,7 +33,8 @@ Plug 'alvan/vim-closetag'
 Plug 'ngmy/vim-rubocop'
 Plug 'yggdroot/indentline'
 Plug 'jeetsukumaran/vim-buffergator'
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'madox2/vim-ai'
 
 call plug#end()
 
@@ -108,7 +109,7 @@ syntax enable
 "NERDTree configuration #####
   map <C-n> :NERDTreeTabsToggle<CR>
   autocmd StdinReadPre * let s:std_in=1
-  autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+  " autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "###########################
 
 " FZF configuration ######
@@ -160,3 +161,8 @@ let g:TasksArchiveSeparator = '＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿�
 "#############################
 
 let g:indentLine_color_term = 235
+
+"Go ########
+let g:go_fmt_autosave = 1
+let g:go_fmt_command = "goimports"
+"#############################
